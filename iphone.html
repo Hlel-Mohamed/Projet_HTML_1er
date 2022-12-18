@@ -18,7 +18,7 @@
                 <li class="link"><a href="iphone.html">iPhones</a></li>
                 <li class="link"><a href="casque.html">Casques</a></li>
                 <li class="link"><a href="smartwatch.html">Smart Watch</a></li>
-                <li class="link"><a href="connexion.html">Connexion</a></li>
+                <li class="link"><a href="#open-modal">Connexion</a></li>
             </ul>
             <form>
                 <input type="search" placeholder="Rechercher">
@@ -158,5 +158,49 @@
         </div>
     </footer>
     <!-- Fin du pied de page -->
+    <!-- Connexion -->
+
+    <div id="open-modal" class="modal-window">
+        <div>
+            <a href="#" title="Close" class="modal-close"><i class="fas fa-window-close"></i></a>
+            <h1>Connexion</h1>
+            <form method="post">
+                <table>
+                    <tr>
+                        <td>Nom utilisateur: </td>
+                        <td><input type="text" placeholder="Inserez votre nom d'utilisateur"></td>
+                    </tr>
+                    <tr>
+                        <td>Mot de Passe: </td>
+                        <td><input type="password" placeholder="Inserez votre mot de passe"></td>
+                    </tr>
+                    <tr style="text-align: center;">
+                        <td colspan="2"><button type="submit">S'identifier</button></td>
+                    </tr>
+                </table>
+            </form>
+            <hr>
+            <form method="post">
+                <table>
+                    <tr>
+                        <td>Nom utilisateur: </td>
+                        <td><input type="text" placeholder="Inserez votre nom d'utilisateur"></td>
+                    </tr>
+                    <tr>
+                        <td>Mot de Passe: </td>
+                        <td><input type="password" placeholder="Inserez votre mot de passe"></td>
+                    </tr>
+                    <tr>
+                        <td>Confirmation mot de Passe: </td>
+                        <td><input type="password" placeholder="Confirmez votre mot de passe"></td>
+                    </tr>
+                    <tr style="text-align: center;">
+                        <td colspan="2"><button type="submit">S'inscrire</button></td>
+                    </tr>
+                </table>
+            </form>
+        </div>
+    </div>
+    <!-- Fin Connexion -->
 </body>
 </html>
